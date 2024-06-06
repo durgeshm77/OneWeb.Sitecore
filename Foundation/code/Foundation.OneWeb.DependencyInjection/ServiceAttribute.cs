@@ -15,7 +15,7 @@ namespace OneWeb.Foundation.DependencyInjection
 
         public ServiceAttribute(Type serviceType)
         {
-            this.ServiceType = serviceType;
+            this.ServiceType = serviceType; 
         }
 
         public Lifetime Lifetime { get; set; } = Lifetime.Singleton;
